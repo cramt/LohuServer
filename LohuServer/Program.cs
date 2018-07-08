@@ -1,11 +1,8 @@
 ﻿using System;
 
-namespace LohuServer
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
+namespace LohuServer {
+    class Program {
+        static void Main(string[] args) {
             Console.WriteLine("Hello World!");
         }
     }
