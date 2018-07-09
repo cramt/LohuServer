@@ -1,9 +1,13 @@
-﻿using System;
+﻿using LohuServer;
+using System;
+using System.Net.Sockets;
+using System.Threading;
 
-namespace LohuServer {
+namespace Testing {
     class Program {
         static void Main(string[] args) {
-            Console.WriteLine("Hello World!");
+            LohuEngine engine = new LohuEngine(2312);
+            Thread.Sleep(-1);
         }
     }
 }
