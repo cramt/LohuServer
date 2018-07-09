@@ -3,7 +3,10 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace LohuServer {
-    class LohuInstanceList : List<LohuInstance> {
-
+    public class LohuInstanceList : List<LohuInstance> {
+        public void Destroy() {
+            ForEach(x => x.Dispose());
+            Clear();
+        }
     }
 }

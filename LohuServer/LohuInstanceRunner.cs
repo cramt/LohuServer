@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace LohuServer {
-    abstract class LohuInstanceRunner {
+    public abstract class LohuInstanceRunner {
 
     }
 }
