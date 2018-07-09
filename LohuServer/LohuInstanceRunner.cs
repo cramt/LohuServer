@@ -4,6 +4,6 @@ using System.Text;
 
 namespace LohuServer {
     public abstract class LohuInstanceRunner {
-
+        public abstract void Update();
     }
 }
